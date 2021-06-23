@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600&display=swap");
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+
+.flex-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.outer-block {
+  padding-left: 215px;
+  padding-right: 215px; }
+
+.responsive {
+  max-width: 100%;
+  display: block; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  color: #303a5e; }
+
+h3 {
+  font-size: 18px;
+  line-height: 1.67;
+  font-weight: 600px; }
+
+a.yellow-button {
+  box-shadow: 0 13px 50px 0 rgba(0, 0, 0, 0.11);
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  text-decoration: none;
+  padding: 15px 22px 15px 22px;
+  border-radius: 3.5px;
+  background-color: #fed700;
+  color: #271d5a; }
+
+a.left-bump {
+  margin-left: 20px; }
+
+a.blue-button {
+  box-shadow: 0 13px 50px 0 rgba(0, 0, 0, 0.11);
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  text-decoration: none;
+  padding: 15px 22px 15px 22px;
+  border-radius: 3.5px;
+  background-color: #271d5a;
+  color: #fcfdfc; }
+
+.intro-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1600px;
+  padding: 0 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.nav-container {
+  width: 100%;
+  background-image: url("../butter_front_end/static/nav-header.svg");
+  margin-top: 0; }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 1600px;
+  color: #fcfdfc;
+  padding: 24px 215px 28px; }
+  nav a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fcfdfc;
+    transition: 0.3s ease;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px; }
+  nav a:hover {
+    color: #fed700;
+    transition: 0.3s ease;
+    text-decoration: underline; }
+
+.nav-push-right {
+  margin-left: auto; }
+
+img.logo-picture {
+  max-width: 212px;
+  max-height: 30px;
+  padding: 0px 24px 0px 24px; }
+
+#intro-block-left {
+  flex-basis: 40%;
+  align-items: flex-start; }
+
+h1, h2.butter-title {
+  font-size: 50px;
+  line-height: 1.2;
+  color: #fed700;
+  font-weight: bold;
+  background-color: #271d5a;
+  border-radius: 3.5px;
+  margin: 10px 0 0 0; }
+
+#subtitle {
+  padding-top: 20px;
+  padding-bottom: 30px; }
+
+#intro-block-right {
+  flex-basis: 60%;
+  padding-left: 80px; }
